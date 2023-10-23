@@ -59,11 +59,11 @@ pserve development.ini --reload
 | /movies/{id} | GET    | get movie by id    |
 | /movies/{id} | PUT    | update movie by id |
 | /movies/{id} | DELETE | delete movie by id |
-contoh test POST /register
+example test POST /register
 ```bash
 {
-    "email": "contoh@email.com",
-    "password": "password_anda"
+    "email": "example@email.com",
+    "password": "your_password"
 }
 ```
 contoh test POST /movies
@@ -74,7 +74,7 @@ localhost:root
     "description": "Kisah perjuangan sekelompok anak-anak di Belitung Timur yang berusaha mendapatkan pendidikan yang berkualitas meskipun dihadapkan dengan keterbatasan sumber daya.",
     "year": 2008,
     "director": "Riri Riza",
-    "genre": "Horror"
+    "genre": "Drama"
 }
 
 ```
